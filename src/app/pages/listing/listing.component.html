@@ -1,0 +1,6 @@
+<div class="w-100 text-right mb-3">
+    <button class="btn btn-primary mt-3 mr-3" (click)="logout()">Logout</button>
+</div>
+
+<!-- <p *ngFor="let item of invitationData" [innerText]="item.invite"></p> -->
+<app-list-item *ngFor="let item of invitationData" [invitation]="item"></app-list-item>

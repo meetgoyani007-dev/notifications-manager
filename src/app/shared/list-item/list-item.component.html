@@ -1,0 +1,3 @@
+<div class="alert" [ngClass]="{'alert-success': invitation.status == 'read', 'alert-danger': invitation.status == 'unread'}">
+    <p class="mb-1">{{invitation.invite}}</p>
+</div>
